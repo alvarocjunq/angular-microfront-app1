@@ -1,0 +1,13 @@
+<div class="box">
+  <h3>
+    Resultado da busca por: {{value}}
+  </h3>
+
+  <mat-list>
+    <mat-list-item class="item" *ngFor="let person of persons" (click)="onClickPerson(person)">
+      <h4 mat-line>{{person.name}}</h4><br>
+      <p mat-line><b>Atualizado em:</b> {{person.updated | date}} </p>
+      <mat-divider></mat-divider>
+    </mat-list-item>
+  </mat-list>
+</div>
