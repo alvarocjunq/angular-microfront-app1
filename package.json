@@ -30,7 +30,7 @@
     "poc-arquitetura": "file:poc-arquitetura-0.0.6.tgz",
     "poc-clientes": "file:dist/poc-clientes",
     "rxjs": "6.3.3",
-    "zone.js": "0.8.26"
+    "zone.js": "0.10.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "0.10.4",
